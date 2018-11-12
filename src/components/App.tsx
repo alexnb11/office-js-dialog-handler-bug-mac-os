@@ -27,7 +27,8 @@ export default class App extends React.Component<AppProps, ResultList> {
 
     openDialog = (asyncResult) => {
         const dialog = asyncResult.value;
-        dialog.addEventHandler(Office.EventType.DialogMessageReceived, (arg) => { this.dialogEventHandler(arg, dialog) });
+        // ADD NEW DIALOG HANDLER. BUG IN MAC OS created dialog already have handler ((((( and we add one more
+        dialog.addEventHandler(Office.EventType.DialogMessageReceived, (arg) => { this.dialogEventHandler(arg, dialog); });
     }
 
     dialogEventHandler = (arg, dialog) => {
