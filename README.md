@@ -14,9 +14,12 @@ Demonstration <a href="https://www.youtube.com/watch?v=O-Xskhwaenw&feature=youtu
 The project is derived from <a href="https://github.com/officedev/generator-office">generator-office</a> project.
 
 ## Install
-1. Go to the project directory
-2. Run 'npm install'
-3. Run 'npm start'
+Video <a href="https://youtu.be/xBdINuLV9Xg">how to install</a> this plugin for demonstrate <a href="https://github.com/OfficeDev/office-js/issues/297">bug</a>
+
+1. Clone git repository
+2. Go to the project directory
+3. Run 'npm install'
+4. Run 'npm start'
 
 The project runs server on the <b>https://localhost:3000/</b> address
 
