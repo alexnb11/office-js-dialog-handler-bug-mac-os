@@ -9,7 +9,7 @@ Demonstration <a href="https://www.youtube.com/watch?v=O-Xskhwaenw&feature=youtu
  
 <p>It is plugin for outlook. There is 'open dialog' button which open new dialog window and adds event handler. The event handler gets message from dialog window and write message Id into RESULT panel.</p>
 
-<p>Dialog message has 2 buttons. 'Close dialog' which sends message to parent window for close dialog. 'Send parent message' which generates randow number and sends message with this number to parent window.</p>
+<p>Dialog message has 2 buttons. 'Close dialog' which sends message to parent window for close dialog. 'Send parent message' which generates random number and sends message with this number to parent window.</p>
 
 The project is derived from <a href="https://github.com/officedev/generator-office">generator-office</a> project.
 
