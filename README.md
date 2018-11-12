@@ -20,7 +20,7 @@ The project is derived from <a href="https://github.com/officedev/generator-offi
 
 The project runs server on the <b>https://localhost:3000/</b> address
 
-Load 'manifest.xml' file to Add-ins for outlook - plugin will be installed in your outlook client. (<a href='https://github.com/officedev/outlook-add-in-command-demo'>link to install add-in</a>).
+Load 'manifest.xml' file to Add-ins for outlook - plugin will be installed in your outlook client. (<a href='https://github.com/officedev/outlook-add-in-command-demo'>link how to install add-in</a>).
 
 For correct work of https connection of plugin use certificates from 'certs' directory. Add 'ca.crt' file. 
 Open Keychain Access on your Mac and go to the Certificates category in your System keychain. 
