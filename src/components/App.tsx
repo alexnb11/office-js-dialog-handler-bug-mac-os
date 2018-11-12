@@ -71,6 +71,7 @@ export default class App extends React.Component<AppProps, ResultList> {
                 <div>
                     <Button className='open-button' onClick={this.click}>Open dialog</Button>
                 </div>
+                <div>RESULT</div>
                 <div className='result-box'>
                     {resultListItems}
                 </div>
