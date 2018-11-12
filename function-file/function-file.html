@@ -1,0 +1,43 @@
+<!-- Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license in root of repo. -->
+<!-- This file shows how to create an empty HTML file to load a function file. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+    <script type="text/javascript" src="function-file.js"></script>
+    <style type="text/css" media="screen">
+        #closeBtn
+        {
+            display: none;
+            width: 200px;
+            margin: 20px auto;
+            font-size: 1em;
+            border: solid 1px black;
+            color: #fff;
+            background-color: red;
+        }
+        #sendBtn
+        {
+            display:none;
+            width: 200px;
+            margin: 20px auto;
+            font-size: 1em;
+            border: solid 1px black;
+            color: #fff;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <input id="closeBtn" type="button" value="Close dialog" />
+    <input id="sendBtn" type="button" value="Send parent message" />
+</body>
+
+</html>
