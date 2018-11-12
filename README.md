@@ -1,7 +1,12 @@
 # office-js-dialog-handler-bug-mac-os
 
 ## Description
-This small project is example for demonstrate bug of <a href="https://github.com/OfficeDev/office-js">office-js</a> (office.js) library. 
+This small project is example for demonstrate bug of <a href="https://github.com/OfficeDev/office-js">office-js</a> (office.js) library.
+<p>
+Link to <a href="https://github.com/OfficeDev/office-js/issues/297">bug</a>
+<br>
+Demonstration <a href="https://www.youtube.com/watch?v=O-Xskhwaenw&feature=youtu.be">video</a> of bug</p>
+ 
 <p>It is plugin for outlook. There is 'open dialog' button which open new dialog window and adds event handler. The event handler gets message from dialog window and write message Id into RESULT panel.</p>
 
 <p>Dialog message has 2 buttons. 'Close dialog' which sends message to parent window for close dialog. 'Send parent message' which generates randow number and sends message with this number to parent window.</p>

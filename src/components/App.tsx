@@ -22,10 +22,12 @@ export default class App extends React.Component<AppProps, ResultList> {
     }
 
     click = () => {
+        // Create new dialog and add event handler openDialog
         Office.context.ui.displayDialogAsync('https://localhost:3000/function-file/function-file.html', {height: 50, width: 50}, this.openDialog);
     }
 
     openDialog = (asyncResult) => {
+        // This dialog already have previous event handlers
         const dialog = asyncResult.value;
         // ADD NEW DIALOG HANDLER. BUG IN MAC OS created dialog already have handler ((((( and we add one more
         dialog.addEventHandler(Office.EventType.DialogMessageReceived, (arg) => { this.dialogEventHandler(arg, dialog); });
